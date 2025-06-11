@@ -1,4 +1,10 @@
-Этот репозиторий представляет собой хранилище кода neofetch без коментариев, делая возможным(и более удобным) его использование без загрузки, это было нужно для моих личных нужд и возможно пригодится кому либо ещё:
+Этот репозиторий представляет собой форк neofetch. Запуск:
 ```
-curl -fsSL https://raw.githubusercontent.com/Lumetas/neofetch/refs/heads/master/neofetch | bash
+curl -fsSL https://raw.githubusercontent.com/Lumetas/lumfetch/refs/heads/master/lumfetch | bash
 ```
+Без информации он характеристиках:
+```
+NO_HARDWARE_INFO=yes curl -fsSL https://raw.githubusercontent.com/Lumetas/lumfetch/refs/heads/master/lumfetch | bash
+```
+
+В рамках форка были убраны коментарии и некоторые другие моменты которые могли мешать запуску neofetch без установки, а так же добавлена возможность скрыть информацию об оборудовании.
